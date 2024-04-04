@@ -1,0 +1,1 @@
+<?phpnamespace Controllers\Servicios;use Controllers\PrivateController;use Views\Renderer;class ListaServicios extends PrivateController{    public function run() :void    {        Renderer::render("servicios/listaservicios", ['hola']);    }}

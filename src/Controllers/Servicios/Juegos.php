@@ -1,0 +1,1 @@
+<?phpnamespace Controllers\Servicios;use Controllers\PublicController;use Views\Renderer;use Dao\Servicios\Servicios as ServiciosDao;class Juegos extends PublicController{    public function run() :void    {         $viewData["ps4Products"] = ServiciosDao::getPS4Products();        Renderer::render("servicios/juegos", $viewData);    }}

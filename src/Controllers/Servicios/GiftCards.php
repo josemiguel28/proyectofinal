@@ -1,0 +1,1 @@
+<?phpnamespace Controllers\Servicios;use Controllers\PublicController;use Views\Renderer;class GiftCards extends PublicController{    public function run() :void    {        Renderer::render("servicios/giftcards", ['hola']);    }}

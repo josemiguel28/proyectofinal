@@ -28,12 +28,19 @@ class Register extends PublicController
                 $this->errorPswd = "La contraseña debe tener al menos 8 caracteres una mayúscula, un número y un caracter especial.";
                 $this->hasErrors = true;
             }
+            
+            if (\Dao\Security\Security::getUsuarioByEmail($this->txtEmail)) {
+                $this->errorEmail = "El correo ya está en uso.";
+                $this->hasErrors = true;
+            }
 
             if (!$this->hasErrors) {
                 try{
+
                     if (\Dao\Security\Security::newUsuario($this->txtEmail, $this->txtPswd)) {
                         \Utilities\Site::redirectToWithMsg("index.php?page=sec_login", "¡Usuario Registrado Satisfactoriamente!");
                     }
+                    
                 } catch (Error $ex){
                     die($ex);
                 }

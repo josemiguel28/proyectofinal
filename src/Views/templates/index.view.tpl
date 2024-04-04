@@ -14,7 +14,8 @@
                        data-te-ripple-init data-te-ripple-color="light" href="#!" role="button">Learn more</a>
                 </div>
                 <div class=" mb-12 lg:mb-0 -ml-48">
-                    <img src="/{{BASE_DIR}}/public/imgs/hero/hero.png" alt="Imagen de ejemplo" class="w-full h-auto"/>
+                    
+                    <img src="/{{BASE_DIR}}/public/imgs/hero/banner.svg" alt="Imagen de ejemplo" class="w-full h-auto"/>
                 </div>
             </div>
         </div>
@@ -31,7 +32,10 @@
         </div>
 
         <div>
-            <h1 class="text-cuaternary text-2xl font-bold">ver todas ></h1>
+            <a href="index.php?page=Servicios_Ofertas">
+                <h1 class="text-cuaternary text-2xl font-bold">ver todas ></h1>
+            </a>
+
         </div>
     </div>
     <!--offer header end-->
@@ -299,7 +303,9 @@
         </div>
 
         <div>
-            <h1 class="text-cuaternary text-2xl font-bold">ver todas ></h1>
+            <a href="index.php?page=Servicios_Juegos">
+                <h1 class="text-cuaternary text-2xl font-bold">ver todas ></h1>
+            </a>
         </div>
     </div>
     <!--games header end-->
@@ -567,7 +573,10 @@
         </div>
 
         <div>
-            <h1 class="text-cuaternary text-2xl font-bold">ver todas ></h1>
+            <a href="index.php?page=Servicios_GiftCards">
+                <h1 class="text-cuaternary text-2xl font-bold">ver todas ></h1>
+            </a>
+            
         </div>
     </div>
     <!--giftcard header end-->

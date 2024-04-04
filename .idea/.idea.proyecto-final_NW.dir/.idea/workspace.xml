@@ -5,7 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cb7faaf-fd7b-4b89-89b4-72f4f16317f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/scripts/03_productos.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Admin/Formulario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Admin/ListaServicios.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Servicios/GiftCards.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Servicios/Juegos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Servicios/ListaServicios.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dao/Servicios/Servicios.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/templates/admin/formulario.view.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/templates/admin/listaservicios.view.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/templates/servicios/giftcards.view.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/templates/servicios/juegos.view.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/templates/servicios/listaservicios.view.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/templates/servicios/ofertas.view.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/scripts/01_security.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docs/scripts/01_security.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nav.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/nav.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/imgs/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/paginaOfertas/hero.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/output.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/Juegos/Ofertas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Servicios/Ofertas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/Sec/Register.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Sec/Register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dao/Security/Security.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dao/Security/Security.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/templates/index.view.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/templates/index.view.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/templates/layout.view.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/templates/layout.view.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/templates/ofertas/ofertas.view.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/templates/privatelayout.view.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/templates/privatelayout.view.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/templates/security/login.view.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/templates/security/login.view.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/templates/security/sigin.view.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/templates/security/sigin.view.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +52,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -33,16 +65,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
+    "sql.rename.search.for.storage.occurrences": "true",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
     "rider.external.source.directories": [
       "C:\\Users\\migue\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
       "C:\\Users\\migue\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
@@ -61,13 +97,16 @@
       <workItem from="1712018266006" duration="814000" />
       <workItem from="1712024592729" duration="2073000" />
       <workItem from="1712027538243" duration="6201000" />
-      <workItem from="1712078326993" duration="2720000" />
+      <workItem from="1712078326993" duration="12133000" />
+      <workItem from="1712094368859" duration="7183000" />
+      <workItem from="1712164776729" duration="29070000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

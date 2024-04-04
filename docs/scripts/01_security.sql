@@ -1,3 +1,4 @@
+use ecommerce;
 CREATE TABLE
     `usuario` (
         `usercod` bigint(10) NOT NULL AUTO_INCREMENT,

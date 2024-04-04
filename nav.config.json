@@ -1,20 +1,20 @@
 {
   "public": [
     {
-      "id": "Menu_SignIn",
-      "nav_url": "index.php?page=Sec_Login",
-      "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Iniciar Sesión"
-    },
-     {
-      "id": "Menu_SignUp",
-      "nav_url": "index.php?page=Sec_Register",
-      "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Crear Cuenta"
+     "id": "Menu_Ofertas",
+     "nav_url": "index.php?page=Servicios_Ofertas",
+     "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Ofertas"
+   },
+    {
+      "id": "Menu_Juegos",
+      "nav_url": "index.php?page=Servicios_Juegos",
+      "nav_label": "<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Juegos"
     },
     {
-     "id": "About_Us",
-     "nav_url": "index.php?page=Sec_Register",
-     "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Acerca de Nosotros"
-   }
+      "id": "Menu_Giftcards",
+      "nav_url": "index.php?page=Servicios_GiftCards",
+      "nav_label": "<i class=\"fas fa-sign-in-alt\"></i>&nbsp;GiftCards"
+    }
   ],
   "private": [
     {

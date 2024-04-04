@@ -56,6 +56,7 @@ class Security extends \Dao\Table
             throw new Exception("Contraseña debe ser almenos 8 caracteres, 1 número, 1 mayúscula, 1 símbolo especial");
         }
 
+
         $newUser = self::_usuarioStruct();
         //Tratamiento de la Contraseña
         $hashedPassword = self::_hashPassword($password);
