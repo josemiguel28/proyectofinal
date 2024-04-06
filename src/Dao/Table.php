@@ -102,7 +102,11 @@ abstract class Table
         foreach ($params as $key => &$value) {
             $query->bindParam(":" . $key, $value, self::getBindType($value));
         }
-        return $query->execute();
+        
+        $query->execute();
+        
+        //retorna si se afecto alguna fila
+        return $query->rowCount();
     }
 
     protected static function _getStructFrom($structure, $data)

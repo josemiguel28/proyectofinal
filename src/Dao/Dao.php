@@ -2,6 +2,8 @@
 
 namespace Dao;
 
+use Utilities\Context;
+
 class Dao
 {
     private static $_conn = null;
@@ -19,14 +21,14 @@ class Dao
         if (self::$_conn == null) {
             $_dds = sprintf(
                 "%s:host=%s;dbname=%s;port=%s;charset=utf8",
-                \Utilities\Context::getContextByKey("DB_PROVIDER"),
-                \Utilities\Context::getContextByKey("DB_SERVER"),
-                \Utilities\Context::getContextByKey("DB_DATABASE"),
-                \Utilities\Context::getContextByKey("DB_PORT")
+                Context::getContextByKey("DB_PROVIDER"),
+                Context::getContextByKey("DB_SERVER"),
+                Context::getContextByKey("DB_DATABASE"),
+                Context::getContextByKey("DB_PORT")
             );
-            $_user = \Utilities\Context::getContextByKey("DB_USER");
-            $_pswd = \Utilities\Context::getContextByKey("DB_PSWD");
-            $_timezone = \Utilities\Context::getContextByKey("TIMEZONE");
+            $_user = Context::getContextByKey("DB_USER");
+            $_pswd = Context::getContextByKey("DB_PSWD");
+            $_timezone = Context::getContextByKey("TIMEZONE");
             if ($dds !== null) {
                 $_dds = $dds;
             }

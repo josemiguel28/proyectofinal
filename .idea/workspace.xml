@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="078f0442-2edb-4c77-af97-b83c19cfa96b" name="Changes" comment="crud table fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/dataSources/955ea7c2-2ada-4f93-9da4-935d06692c47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/dataSources/955ea7c2-2ada-4f93-9da4-935d06692c47.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/dataSources/955ea7c2-2ada-4f93-9da4-935d06692c47/storage_v2/_src_/schema/ecommerce.QLYXWw.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/dataSources/955ea7c2-2ada-4f93-9da4-935d06692c47/storage_v2/_src_/schema/ecommerce.QLYXWw.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/hero/banner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/hero/hero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/ofertas/Discount.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/ofertas/Gift.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/ofertas/Line.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/ofertas/Star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/ofertas/deluxe12.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/ofertas/juego1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/ofertas/oferta1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/ofertas/oferta2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/paginaGiftcards/banner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/paginaOfertas/banner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/paginaOfertas/hero.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/appstyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/appstyle2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/colors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/heropanel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css_src/breakpoints.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css_src/form.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css_src/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css_src/hero.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css_src/main.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css_src/menu.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css_src/modal.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css_src/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css_src/table.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css_src/utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/hero/banner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/hero/hero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/Discount.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/Gift.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/Line.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/Star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/deluxe12.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/juego1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/oferta1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/oferta2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/paginaGiftcards/Gift.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/paginaGiftcards/banner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/paginaJuegos/Star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/paginaJuegos/banner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imgs/paginaOfertas/banner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/output.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/Admin/Formulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Admin/Formulario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/Admin/ListaServicios.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Admin/ListaServicios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dao/Dao.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dao/Dao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dao/Servicios/Servicios.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dao/Servicios/Servicios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dao/Table.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dao/Table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/templates/admin/formulario.view.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/templates/admin/formulario.view.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/templates/admin/listaservicios.view.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/templates/admin/listaservicios.view.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/templates/index.view.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/templates/index.view.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/templates/layout.view.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/templates/layout.view.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <interpreter composer="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/flyfinder" />
+      <path value="$PROJECT_DIR$/vendor/paypal/paypalhttp" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection" />
+      <path value="$PROJECT_DIR$/vendor/paypal/paypal-checkout-sdk" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/graphviz" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/phpdocumentor" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/wikimedia/less.php" />
+      <path value="$PROJECT_DIR$/vendor/jawira/plantuml" />
+      <path value="$PROJECT_DIR$/vendor/jean85/pretty-package-versions" />
+      <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/league/tactician-container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/league/tactician-logger" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/league/tactician-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/league/tactician" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/league/pipeline" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2eejkhMpWM6gjlG8tHerqNmsgm1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.Servicios.php.executor": "Debug",
+    "PHP Script.Servicios.php.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/xampp/htdocs/negociosWeb/proyecto-final_NW",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2024.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\negociosWeb\proyecto-final_NW\imgs" />
+      <recent name="C:\xampp\htdocs\negociosWeb\proyecto-final_NW\imgs\hero" />
+      <recent name="C:\xampp\htdocs\negociosWeb\proyecto-final_NW" />
+      <recent name="C:\xampp\htdocs\negociosWeb\proyecto-final_NW\src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PS-241.14494.237" />
+        <option value="bundled-php-predefined-ba97393d7c68-8f0632a2a215-com.jetbrains.php.sharedIndexes-PS-241.14494.237" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="078f0442-2edb-4c77-af97-b83c19cfa96b" name="Changes" comment="" />
+      <created>1712272084629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712272084629</updated>
+      <workItem from="1712272085452" duration="198000" />
+      <workItem from="1712272294013" duration="25000" />
+      <workItem from="1712274778642" duration="37000" />
+      <workItem from="1712274828961" duration="129000" />
+      <workItem from="1712274971709" duration="277000" />
+      <workItem from="1712275267764" duration="366000" />
+      <workItem from="1712275660848" duration="28655000" />
+      <workItem from="1712336367392" duration="4397000" />
+      <workItem from="1712375180632" duration="6378000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

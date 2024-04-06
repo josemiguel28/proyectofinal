@@ -13,9 +13,9 @@ module.exports = {
       transitionProperty: ['hover'],
       
     },
-    
-    
   },
-  plugins: [],
+  plugins: [
+      require('@tailwindcss/forms'),
+  ],
 }
 

@@ -10,7 +10,7 @@
     <!--<link rel="stylesheet" href="/{{BASE_DIR}}/public/css/appstyle.css" /> -->
     <link rel="stylesheet" href="/{{BASE_DIR}}/public/output.css"/>
 
-    <script src="https://kit.fontawesome.com/{{FONT_AWESOME_KIT}}.js" crossorigin="anonymous"></script>
+   <!--  <script src="https://kit.fontawesome.com/{{FONT_AWESOME_KIT}}.js" crossorigin="anonymous"></script>-->
     {{foreach SiteLinks}}
     <link rel="stylesheet" href="/{{~BASE_DIR}}/{{this}}"/>
     {{endfor SiteLinks}}
@@ -47,7 +47,12 @@
     <div class="w-full flex flex-wrap items-center justify-evenly mx-auto p-4">
 
         <a href="index.php?page=Index" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="/{{BASE_DIR}}/public/imgs/logo.jpg" class="w-32" alt="Logo"/>
+
+		        <picture>
+				        <source srcset="/{{BASE_DIR}}/public/img/webp/logo.webp" type="image/webp">
+				        <source srcset="/{{BASE_DIR}}/public/img/logo.jpg" type="image/jpeg">
+				        <img loading="lazy" class="w-32" src="/{{BASE_DIR}}/public/img/logo.jpg" alt="logo">
+		        </picture>
         </a>
 
         <div class="md:order-1 w-3/5">
