@@ -5,6 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="078f0442-2edb-4c77-af97-b83c19cfa96b" name="Changes" comment="crud table working">
+      <change afterPath="$PROJECT_DIR$/imagenes/75fe2016bd94ad9b4922ba74fee48041.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/9ddf7e16413ebb9b7f6d38a5227fc272.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/ba206dcec9234ec5760788aeba5f2299.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/c5664d3ca28e8d7bf4e0403a39a02935.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/e061e1ccafd1e04b6777b2fcbec7645f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/f0423134253e67e83058ef89d26620e3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index/hero/hero-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/paginaJuegos/bannerJuegos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/paginaOfertas/bannerOfertas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/index/giftcards/giftcard_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/index/hero/hero-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/index/juegos/star_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/paginaJuegos/bannerJuegos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/paginaOfertas/bannerOfertas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/webp/index/giftcards/giftcard_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/webp/index/hero/hero-img.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/webp/index/juegos/star_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/webp/paginaJuegos/bannerJuegos.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/webp/paginaOfertas/bannerOfertas.webp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Controllers/Carrito/Carrito.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Dao/CartV2/CartV2.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Views/templates/carrito/carrito.view.tpl" afterDir="false" />
@@ -16,7 +35,7 @@
       <change beforePath="$PROJECT_DIR$/docs/scripts/02_carretillas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docs/scripts/02_carretillas.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imgs/index/avatar_hombre.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/output.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renameTo_parameters.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renameTo_parameters.env" beforeDir="false" afterPath="$PROJECT_DIR$/hostingParameters.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/Admin/Formulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Admin/Formulario.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/Admin/ListaServicios.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Admin/ListaServicios.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/Checkout/Checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Checkout/Checkout.php" afterDir="false" />
@@ -135,7 +154,7 @@
     "JavaScript Debug.Servicios.php.executor": "Debug",
     "PHP Script.Servicios.php.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "checkOutProcess",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/xampp/htdocs/negociosWeb/mcv202401",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -203,7 +222,7 @@
       <workItem from="1712594655133" duration="5931000" />
       <workItem from="1712601140357" duration="156000" />
       <workItem from="1712717789498" duration="5102000" />
-      <workItem from="1712768702634" duration="26217000" />
+      <workItem from="1712768702634" duration="26311000" />
     </task>
     <servers />
   </component>
