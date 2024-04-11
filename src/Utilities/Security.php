@@ -3,6 +3,7 @@
 namespace Utilities;
 
 use Dao\Security\Security as DaoSecurity;
+
 class Security {
     private function __construct()
     {

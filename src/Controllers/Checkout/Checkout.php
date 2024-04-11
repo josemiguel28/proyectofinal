@@ -8,6 +8,7 @@ class Checkout extends PublicController{
     public function run():void
     {
         $viewData = array();
+        
         if ($this->isPostBack()) {
             $PayPalOrder = new \Utilities\Paypal\PayPalOrder(
                 "test".(time() - 10000000),

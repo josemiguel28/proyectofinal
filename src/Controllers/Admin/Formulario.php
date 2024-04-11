@@ -186,13 +186,13 @@ class Formulario extends PublicController
         
         switch ($this->mode){
             case "INS":
-                $this->nombreImagen = md5(uniqid(rand(), true)) . ".svg";
+                $this->nombreImagen = md5(uniqid(rand(), true)) . ".png";
                 move_uploaded_file($servicioImagen['tmp_name'], $carpetaImagenes . "/" . $this->nombreImagen);
                 break;
             case "UPD":
                 if ($servicioImagen["name"]) {
                     $temp = unlink($carpetaImagenes . "/" . $getImagenFromDB["servicioImagen"]);
-                    $this->nombreImagen = md5(uniqid(rand(), true)) . ".svg";
+                    $this->nombreImagen = md5(uniqid(rand(), true)) . ".png";
                     move_uploaded_file($servicioImagen['tmp_name'], $carpetaImagenes . "/" . $this->nombreImagen);
                 } else {
                     $this->nombreImagen = $getImagenFromDB["servicioImagen"];

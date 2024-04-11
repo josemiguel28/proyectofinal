@@ -110,8 +110,18 @@ class Servicios extends Table
         return self::obtenerRegistros("SELECT * FROM serviciotipo", []);
     }
 
-    public static function getPS4Products()
+    public static function getGamesProducts()
     {
-        return self::obtenerRegistros("SELECT * FROM getPS4Products", []);
+        return self::obtenerRegistros("SELECT * FROM getGamesProducts", []);
+    }
+
+    public static function getOfferProducts()
+    {
+        return self::obtenerRegistros("SELECT * FROM getOfferProducts", []);
+    }
+
+    public static function getGiftCardProducts()
+    {
+        return self::obtenerRegistros("SELECT * FROM getGiftCardsProducts", []);
     }
 }
