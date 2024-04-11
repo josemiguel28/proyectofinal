@@ -5,72 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="078f0442-2edb-4c77-af97-b83c19cfa96b" name="Changes" comment="crud table fixed">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/dataSources/955ea7c2-2ada-4f93-9da4-935d06692c47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/dataSources/955ea7c2-2ada-4f93-9da4-935d06692c47.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/dataSources/955ea7c2-2ada-4f93-9da4-935d06692c47/storage_v2/_src_/schema/ecommerce.QLYXWw.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/dataSources/955ea7c2-2ada-4f93-9da4-935d06692c47/storage_v2/_src_/schema/ecommerce.QLYXWw.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.proyecto-final_NW.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/hero/banner.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/hero/hero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ofertas/Discount.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ofertas/Gift.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ofertas/Line.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ofertas/Star.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ofertas/deluxe12.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ofertas/juego1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ofertas/oferta1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/ofertas/oferta2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/paginaGiftcards/banner.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/paginaOfertas/banner.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/paginaOfertas/hero.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/appstyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/appstyle2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/colors.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/heropanel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css_src/breakpoints.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css_src/form.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css_src/grid.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css_src/hero.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css_src/main.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css_src/menu.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css_src/modal.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css_src/style.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css_src/table.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css_src/utilities.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/hero/banner.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/hero/hero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/Discount.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/Gift.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/Line.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/Star.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/deluxe12.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/juego1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/oferta1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/ofertas/oferta2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/paginaGiftcards/Gift.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/paginaGiftcards/banner.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/paginaJuegos/Star.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/paginaJuegos/banner.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/paginaOfertas/banner.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/output.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/Admin/Formulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Admin/Formulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/Admin/ListaServicios.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Admin/ListaServicios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dao/Dao.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dao/Dao.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dao/Servicios/Servicios.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dao/Servicios/Servicios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dao/Table.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dao/Table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/templates/admin/formulario.view.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/templates/admin/formulario.view.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/templates/admin/listaservicios.view.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/templates/admin/listaservicios.view.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/templates/index.view.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/templates/index.view.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/templates/layout.view.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/templates/layout.view.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e891996f-a631-47a2-8606-fed49c4afec4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e891996f-a631-47a2-8606-fed49c4afec4.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,28 +102,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.Servicios.php.executor": "Debug",
-    "PHP Script.Servicios.php.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/xampp/htdocs/negociosWeb/proyecto-final_NW",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2024.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.Servicios.php.executor&quot;: &quot;Debug&quot;,
+    &quot;PHP Script.Servicios.php.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/negociosWeb/proyecto-final_NW&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2024.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\negociosWeb\proyecto-final_NW\imgs" />
