@@ -33,12 +33,11 @@
                 <div class=" mb-12 lg:mb-0 -ml-48">
 
 		                <picture>
-				                <source srcset="build/img/blog2.webp" type="image/webp">
-				                <source srcset="/{{BASE_DIR}}/public/imgs/hero/banner.svg" type="image/jpeg">
-				                <img loading="lazy" src="build/img/blog2.jpg" alt="Texto Entrada Blog">
+				                <source srcset="/{{BASE_DIR}}/public/img/webp/index/hero/hero-img.webp" type="image/webp">
+				                <source srcset="/{{BASE_DIR}}/public/img/index/hero/hero-img.png" type="image/jpeg">
+				                <img loading="lazy" src="/{{BASE_DIR}}/public/img/index/hero/hero-img.png" alt="hero image">
 		                </picture>
 		                
-                    <img src="/{{BASE_DIR}}/public/imgs/hero/banner.svg" alt="Imagen de ejemplo" class="w-full h-auto"/>
                 </div>
             </div>
         </div>

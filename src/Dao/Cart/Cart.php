@@ -6,12 +6,12 @@ class Cart extends \Dao\Table
 {
     public static function getProductosDisponibles()
     {
-        $sqlAllProductosActivos = "SELECT * from products where productStatus in ('ACT');";
+        $sqlAllProductosActivos = "SELECT * from servicios where servicioEstatus in ('ACT');";
         $productosDisponibles = self::obtenerRegistros($sqlAllProductosActivos, array());
 
         //Sacar el stock de productos con carretilla autorizada
         $deltaAutorizada = \Utilities\Cart\CartFns::getAuthTimeDelta();
-        $sqlCarretillaAutorizada = "select productId, sum(crrctd) as reserved
+        $sqlCarretillaAutorizada = "select servicioId, sum(crrctd) as reserved
             from carretilla where TIME_TO_SEC(TIMEDIFF(now(), crrfching)) <= :delta
             group by productId;";
         $prodsCarretillaAutorizada = self::obtenerRegistros(
@@ -20,7 +20,7 @@ class Cart extends \Dao\Table
         );
         //Sacar el stock de productos con carretilla no autorizada
         $deltaNAutorizada = \Utilities\Cart\CartFns::getUnAuthTimeDelta();
-        $sqlCarretillaNAutorizada = "select productId, sum(crrctd) as reserved
+        $sqlCarretillaNAutorizada = "select servicioId, sum(crrctd) as reserved
             from carretillaanom where TIME_TO_SEC(TIMEDIFF(now(), crrfching)) <= :delta
             group by productId;";
         $prodsCarretillaNAutorizada = self::obtenerRegistros(
@@ -29,18 +29,18 @@ class Cart extends \Dao\Table
         );
         $productosCurados = array();
         foreach ($productosDisponibles as $producto) {
-            if (!isset($productosCurados[$producto["productId"]])) {
-                $productosCurados[$producto["productId"]] = $producto;
+            if (!isset($productosCurados[$producto["servicioId"]])) {
+                $productosCurados[$producto["servicioId"]] = $producto;
             }
         }
         foreach ($prodsCarretillaAutorizada as $producto) {
-            if (isset($productosCurados[$producto["productId"]])) {
-                $productosCurados[$producto["productId"]]["productStock"] -= $producto["reserved"];
+            if (isset($productosCurados[$producto["servicioId"]])) {
+                $productosCurados[$producto["servicioId"]]["stock"] -= $producto["reserved"];
             }
         }
         foreach ($prodsCarretillaNAutorizada as $producto) {
-            if (isset($productosCurados[$producto["productId"]])) {
-                $productosCurados[$producto["productId"]]["productStock"] -= $producto["reserved"];
+            if (isset($productosCurados[$producto["servicioId"]])) {
+                $productosCurados[$producto["servicioId"]]["stock"] -= $producto["reserved"];
             }
         }
         $productosDisponibles = null;
@@ -49,10 +49,10 @@ class Cart extends \Dao\Table
         return $productosCurados;
     }
 
-    public static function getProductoDisponible($productId)
+    public static function getProductoDisponible($servicioId)
     {
-        $sqlAllProductosActivos = "SELECT * from products where productStatus in ('ACT') and productId=:productId;";
-        $productosDisponibles = self::obtenerRegistros($sqlAllProductosActivos, array("productId" => $productId));
+        $sqlAllProductosActivos = "SELECT * from servicios where servicioEstatus in ('ACT') and servicioId=:servicioId;";
+        $productosDisponibles = self::obtenerRegistros($sqlAllProductosActivos, array("servicioId" => $servicioId));
 
         //Sacar el stock de productos con carretilla autorizada
         $deltaAutorizada = \Utilities\Cart\CartFns::getAuthTimeDelta();
