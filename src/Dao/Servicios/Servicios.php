@@ -110,18 +110,19 @@ class Servicios extends Table
         return self::obtenerRegistros("SELECT * FROM serviciotipo", []);
     }
 
-    public static function getGamesProducts()
+    public static function getGamesProducts($limit)
     {
-        return self::obtenerRegistros("SELECT * FROM getGamesProducts", []);
+        return self::obtenerRegistros("SELECT * FROM getGamesProducts limit :limit", ["limit" => $limit]);
     }
 
-    public static function getOfferProducts()
+    public static function getOfferProducts($limit)
     {
-        return self::obtenerRegistros("SELECT * FROM getOfferProducts", []);
+        return self::obtenerRegistros("SELECT * FROM getOfferProducts limit :limit", ["limit" => $limit]);
     }
 
-    public static function getGiftCardProducts()
+    public static function getGiftCardProducts($limit)
     {
-        return self::obtenerRegistros("SELECT * FROM getGiftCardsProducts", []);
+        return self::obtenerRegistros("SELECT * FROM getGiftCardsProducts limit :limit", ["limit" => $limit]);
     }
+
 }
